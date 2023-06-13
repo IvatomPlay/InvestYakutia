@@ -1,0 +1,15 @@
+@import url(./blocks/header.css);
+@import url(./blocks/main.css);
+@import url(../assets/font/stylesheet.css);
+
+body {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.06em;
+    margin: 0;
+    padding: 0;
+}
+

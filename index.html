@@ -5,29 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INVESTYAKUTIA</title>
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header class="header">
-        <h1 class="header__name">INVESTYAKUTIA</h1>
-        <nav class="header__navigation">
-            <ul class="navigation__content">
-                <li>О ЯКУТИИ</li>
-                <li>АГЕНТСТВО</li>
-                <li>ИНВЕСТКЛИМАТ</li>
-                <li>ИНВЕСТСТАНДАРТ</li>
-                <li>ИНВЕСТОРУ</li>
-                <li>МЕДИА</li>
-            </ul>
-        </nav>
+        <div class="header__content">
+            <nav class="header__navigation">
+                <img class="logo" src="./assets/img/Group.png" class="header__name">
+                <ul class="navigation__content">
+                    <li><a class="nav__link" href="#">О ЯКУТИИ</a></li>
+                    <li><a class="nav__link" href="#">АГЕНТСТВО</a></li>
+                    <li><a class="nav__link" href="#">ИНВЕСТКЛИМАТ</a></li>
+                    <li><a class="nav__link" href="#">ИНВЕСТСТАНДАРТ</a></li>
+                    <li><a class="nav__link" href="#">ИНВЕСТОРУ</a></li>
+                    <li><a class="nav__link" href="#">МЕДИА</a></li>
+                </ul>
+                <div class="navigation__aside">
+                    <img src="./assets/img/lang.png" alt="language icon">
+                    <img src="./assets/img/glasses.png" alt="glasses">
+                    <img src="./assets/img/search.png" alt="search">
+                    <img src="./assets/img/menu.png" alt="menu">
+                </div>
+            </nav>
+        </div>
     </header>
-    <main>
-        <section >
-            <div class="section_1">
-                <h2>ЯКУТИЯ-ТЕРРИТОРИЯ ИНВЕСТИЦИЙ</h2>
-                <button>Подать заявку</button>
-                <div>
-                    <ul>
+    <main class="main">
+        <section class="section1">
+            <div class="section1__content">
+                <div class="apply">
+                    <h1 class="section1__name">ЯКУТИЯ-ТЕРРИТОРИЯ ИНВЕСТИЦИЙ</h1>
+                    <button class="btn__apply">Подать заявку</button>
+                </div>
+                <div class="ellipse">
+                    <img class="ellipse__img" src="./assets/img/Ellipse2.png" alt="ellipse">
+                    <ul class="ellipse__menu">
                         <li>Подать заявку</li>
                         <li>Инвесткарта</li>
                         <li>Инвестплощадки</li>
@@ -37,23 +48,42 @@
                 </div>
             </div>
         </section>
-        <section>
-            <div>
+        <section class="section2">
+            <div class="section2__content">
                 <h2>СИЛА ЯКУТИИ</h2>
-            </div>
-            <div>
-                <div>
-                    <h3>1</h3>
-                    <p>Место</p>
-                    <p>Лидер по ВРП по Дальнему Востоку</p>
+                <div class="blocks">
+                    <div class="block__content">
+                        <h3 class="block__name">1</h3>
+                        <p>Место</p>
+                        <p>Лидер по ВРП по Дальнему Востоку</p>
+                    </div>
+                    <div class="block__content">
+                        <h3 class="block__name">2</h3>
+                        <p>Место</p>
+                        <p>Национальный инвестиционный рейтинг</p>
+                    </div>
+                    <div class="block__content">
+                        <h3 class="block__name">100</h3>
+                        <p>Место</p>
+                        <p>Человеческий капитал</p>
+                    </div>
+                    <div class="block__content">
+                        <h3 class="block__name">3</h3>
+                        <p>Место</p>
+                        <p>Инновационное развитие</p>
+                    </div>
+                    <div class="block__content">
+                        <h3 class="block__name">56</h3>
+                        <p>Место</p>
+                        <p>Природно- ресурсный потенциал</p>
+                    </div>
+                    <div class="block__content">
+                        <h3 class="block__name">1</h3>
+                        <p>Место</p>
+                        <p>Индекс промышленного производства</p>
+                    </div>
                 </div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
             </div>
-            
         </section>
     </main>
     <footer></footer>
